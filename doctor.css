@@ -1,0 +1,51 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin-top: 100px;
+    padding: 0;
+    background-image: url("patient.html.jpeg");
+}
+
+
+
+main {
+    padding: 20px;
+}
+
+/* Patient Details Form Styles */
+.patient-section {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+label {
+    margin-bottom: 8px;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="datetime-local"],
+select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
