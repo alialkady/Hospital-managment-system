@@ -56,13 +56,7 @@ function display() {
             dynamicBox.style.display = "none";
         }, 5000);
     }
-    if (window.clinic.value == "heart" && window.appointment.value == "10"){
-        dynamicBox.innerHTML = "This appointment isn't available.. try get another appointment ";
-        dynamicBox.style.display = "block";
-        setTimeout(function() {
-            dynamicBox.style.display = "none";
-        }, 5000);
-    }
+   
     if (window.clinic.value == "heart" && window.appointment.value == "9"){
         dynamicBox.innerHTML = "patient name: Kareem, ID: 30 ";
         dynamicBox.style.display = "block";
@@ -70,5 +64,18 @@ function display() {
             dynamicBox.style.display = "none";
         }, 5000);
     }
+    if (window.clinic.value == "bones" && window.appointment.value == "8"){
+        dynamicBox.innerHTML = "patient name: ali, ID:35";
+        dynamicBox.style.display = "block";
+        setTimeout(function() {
+            dynamicBox.style.display = "none";
+        }, 5000);
     }
-
+    if (window.clinic.value == "bones" && window.appointment.value == "9"){
+        dynamicBox.innerHTML = "patient name: omar, ID:40";
+        dynamicBox.style.display = "block";
+        setTimeout(function() {
+            dynamicBox.style.display = "none";
+        }, 5000);
+    }
+}

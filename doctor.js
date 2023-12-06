@@ -22,42 +22,56 @@ document.body.appendChild(dynamicBox);
 
 function display() {
     if (window.clinic.value == "eye" && window.appointment.value == "7") {
-        dynamicBox.innerHTML = "You have Glaucoma, your medicine is Beta-adrenergic";
+        dynamicBox.innerHTML = "You have Glaucoma, your medicine is paracetamol";
         dynamicBox.style.display = "block";
         setTimeout(function() {
             dynamicBox.style.display = "none";
         }, 5000);
     }
     if (window.clinic.value == "eye" && window.appointment.value == "8"){
-        dynamicBox.innerHTML = "You have cataracts, your medicine is paracetamol";
+        dynamicBox.innerHTML = "You have cataracts, your medicine is Can-c";
         dynamicBox.style.display = "block";
         setTimeout(function() {
             dynamicBox.style.display = "none";
         }, 5000);
     }
     if (window.clinic.value == "eye" && window.appointment.value == "9"){
-        dynamicBox.innerHTML = "The patient didn't come";
+        dynamicBox.innerHTML = "you have headached, your medicine is cometrix";
         dynamicBox.style.display = "block";
         setTimeout(function() {
             dynamicBox.style.display = "none";
         }, 5000);
     }
     if (window.clinic.value == "heart" && window.appointment.value == "7"){
-        dynamicBox.innerHTML = "the patient didn't come";
+        dynamicBox.innerHTML = "you have heartattack, your medicine is cetyl pure";
         dynamicBox.style.display = "block";
         setTimeout(function() {
             dynamicBox.style.display = "none";
         }, 5000);
     }
     if (window.clinic.value == "heart" && window.appointment.value == "8"){
-        dynamicBox.innerHTML = "You have cataracts, your medicine is paracetamol";
+        dynamicBox.innerHTML = "You have cataracts, your medicine is Can-C";
         dynamicBox.style.display = "block";
         setTimeout(function() {
             dynamicBox.style.display = "none";
         }, 5000);
     }
     if (window.clinic.value == "heart" && window.appointment.value == "9"){
-        dynamicBox.innerHTML = "You have cataracts, your medicine is paracetamol";
+        dynamicBox.innerHTML = "You have cataracts, your medicine is Can-C";
+        dynamicBox.style.display = "block";
+        setTimeout(function() {
+            dynamicBox.style.display = "none";
+        }, 5000);
+    }
+    if (window.clinic.value == "bones" && window.appointment.value == "8"){
+        dynamicBox.innerHTML = "You have bones problem, your medicine is cetyl pure";
+        dynamicBox.style.display = "block";
+        setTimeout(function() {
+            dynamicBox.style.display = "none";
+        }, 5000);
+    }
+    if (window.clinic.value == "bones" && window.appointment.value == "9"){
+        dynamicBox.innerHTML = "You have  flexiblity in bones, your medicine is cla core";
         dynamicBox.style.display = "block";
         setTimeout(function() {
             dynamicBox.style.display = "none";
